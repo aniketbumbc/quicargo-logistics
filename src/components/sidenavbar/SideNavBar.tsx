@@ -1,6 +1,6 @@
-import './sidenavbar.scss';
 import Delivery from '../delivery/Delivery';
 import { IMAGE_LOGO } from '../../constant/constant';
+import './sidenavbar.scss';
 
 const SideNavBar = () => {
   return (

@@ -1,6 +1,7 @@
 # Quicargo Wireframe Application
 
 In this application user can able to enter logistics details as per the requirements.
+
 - Route, Pickup and Delivery address and country.
 - Side Navmenu which contains information about my deliveries and history,Add New Delivery.
 - Freight Details,type goods,volume,and weight information.
@@ -8,6 +9,7 @@ In this application user can able to enter logistics details as per the requirem
 - Google Map for route details.
 
 ## Features
+
 - On an application load successfully user will able to see form for enter details information and map on ui.
 - I also added validation for pickup and delivery address,country,volume count, pickup and delivery date.
 - User can see his user name on header right side.
@@ -25,16 +27,20 @@ In this application user can able to enter logistics details as per the requirem
 - Open **http://localhost:3000** to view it in the browser.
 
 ## Installation
+
 ```sh
 clone repo
 cd quickcargo
 npm install
 npm start
 ```
-## Run Test ##
-```sh 
+
+## Run Test
+
+```sh
 npm test
 ```
 
 ## Preview
 
+![Demo](image/demo.png?raw=true 'Title')

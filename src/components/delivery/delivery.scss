@@ -1,0 +1,208 @@
+@import '../../styles/colors.scss';
+
+%maxLength-error {
+  color: $orangeRed;
+  font-size: 0.9em;
+  line-height: 0em;
+}
+
+%errorBorder {
+  border: 2px solid $orangeRed;
+}
+
+%blackBorder {
+  border: 1px solid $black-color;
+}
+
+%defaultFontSize {
+  font-size: 0.8em;
+}
+
+.delivery-container {
+  margin-left: 275px;
+  height: 85vh;
+  width: 80vh;
+  margin-top: 0.3em;
+
+  .inner-container {
+    margin: 1.56em 0.4em 1.2em;
+    @extend %blackBorder;
+    height: 8.5em;
+  }
+
+  .route-container {
+    &-title {
+      margin-top: 0.2em;
+      margin-left: 0.3em;
+      font-size: medium;
+      font-weight: bold;
+    }
+    &-select-lable {
+      font-size: 0.9em;
+      margin-left: 2.8em;
+    }
+    &-select {
+      height: 1.8em;
+      width: 13em;
+      display: table-cell;
+      vertical-align: middle;
+    }
+    &-address {
+      height: 1.8em;
+      width: 50%;
+      margin: 0.8em;
+    }
+    .show-error {
+      @extend %maxLength-error;
+      margin-left: 3.8em;
+    }
+    .error-input {
+      @extend %errorBorder;
+    }
+    .show-maxLength-error {
+      @extend %maxLength-error;
+      margin-left: 20em;
+    }
+    .freight-container {
+      margin: 0.4em;
+      @extend %blackBorder;
+      height: 18em;
+      margin-bottom: 1.2em;
+
+      &-title {
+        margin-bottom: 20px;
+        font-weight: bold;
+        margin-left: 0.3em;
+      }
+
+      &-goods {
+        padding-left: 1em;
+        margin-bottom: 2em;
+        p {
+          @extend %defaultFontSize;
+          margin-bottom: 1.5em;
+        }
+
+        &-tabs {
+          display: flex;
+          flex-wrap: wrap;
+          &-btn {
+            position: absolute;
+            opacity: 0;
+          }
+          .tabs-label {
+            width: auto;
+            padding: 1em 2em;
+            cursor: pointer;
+            @extend %defaultFontSize;
+            color: $black-color;
+            @extend %blackBorder;
+            transition: background 0.1s, color 0.1s;
+          }
+          .tabs-label:hover {
+            background: $hover-color;
+            color: $white-color;
+          }
+          .tabs-label:active {
+            background: $primary-color;
+            color: $white-color;
+          }
+          &-btn:focus + .tabs-label {
+            z-index: 1;
+          }
+
+          &-btn:checked + .tabs-label {
+            background: $primary-color;
+            color: $white-color;
+          }
+        }
+      }
+
+      &-volume {
+        padding-left: 1em;
+        p {
+          @extend %defaultFontSize;
+        }
+        &-type {
+          height: 2.2em;
+        }
+        &-label {
+          @extend %defaultFontSize;
+          margin: 0.5em;
+        }
+        &-number {
+          height: 2.2em;
+          width: 3.6em;
+          margin-right: 3em;
+          text-align: center;
+        }
+        &-error {
+          height: 2.2em;
+          width: 3.6em;
+          @extend %errorBorder;
+          margin-right: 3em;
+        }
+
+        &-dimension {
+          margin-right: 0.5em;
+          text-align: center;
+          width: 5.5em;
+          height: 2.2em;
+        }
+        .dimension-field {
+          display: inline-block;
+          position: relative;
+          padding-left: 0.5em;
+
+          label {
+            position: absolute;
+            @extend %defaultFontSize;
+            top: 3.2em;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .weight-container {
+      margin-top: 3em;
+      &-label {
+        @extend %defaultFontSize;
+        margin-left: 1em;
+        margin-right: 2em;
+      }
+
+      &-input {
+        margin-right: 0.5em;
+        text-align: center;
+        width: 5.5em;
+        height: 2.2em;
+      }
+    }
+
+    .date-container {
+      margin: 0.4em;
+      @extend %blackBorder;
+      height: 10.5em;
+
+      &-label {
+        @extend %defaultFontSize;
+      }
+      &-input {
+        margin: 1.7em;
+      }
+      &-error {
+        @extend %errorBorder;
+      }
+      &-pickup {
+        margin-top: 0;
+        text-indent: 2em;
+        padding: 0 0.3em 0 0.3em;
+      }
+      &-delivery {
+        margin-top: -1em;
+        text-indent: 2em;
+      }
+    }
+  }
+}

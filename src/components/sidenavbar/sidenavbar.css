@@ -1,0 +1,88 @@
+a {
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #000050;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.sidebar {
+  position: absolute;
+  width: 17em;
+  height: 107vh;
+  top: 0;
+  overflow: hidden;
+  background-color: #000050;
+  visibility: visible;
+}
+
+.sidebar header {
+  width: 100%;
+  display: block;
+  padding: 0.75em 1em;
+}
+
+.sidebar-nav {
+  height: 100%;
+  font-weight: 400;
+  font-size: 1.2em;
+  overflow: auto;
+  padding-bottom: 6em;
+  z-index: 9;
+  overflow: hidden;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav ul li {
+  margin-left: 0;
+  padding-left: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.sidebar-nav ul li a {
+  color: #ffffff;
+  font-size: 0.95em;
+  padding: 1.05em 1em;
+  position: relative;
+  display: block;
+}
+
+.sidebar-nav ul li a:hover {
+  background-color: #567eff;
+}
+
+.sidebar-nav ul li a i {
+  font-size: 1.8em;
+  padding-right: 0.5em;
+  display: inline;
+  vertical-align: middle;
+}
+
+.sidebar-nav .badge {
+  color: #ffffff;
+  border-radius: 50%;
+  margin-left: 1em;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.5em;
+  background: #ed522f;
+}
+/*# sourceMappingURL=sidenavbar.css.map */

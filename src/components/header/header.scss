@@ -1,0 +1,32 @@
+@import '../../styles/colors.scss';
+
+.navbar-fixed-top {
+  position: sticky;
+  top: 0;
+  border-style: solid;
+  border-width: thin;
+  width: 100%;
+  height: 3em;
+
+  nav ul {
+    list-style-type: none;
+    margin: 0 2% auto 0;
+    padding-left: 0;
+    text-align: right;
+    max-width: 100%;
+
+    li {
+      text-align: center;
+      margin-top: 0.3em;
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 0.6em;
+    }
+    .user-name {
+      font-size: 0.9em;
+    }
+    .icon {
+      font-size: 2.2em;
+    }
+  }
+}

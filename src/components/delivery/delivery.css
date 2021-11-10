@@ -1,0 +1,205 @@
+.delivery-container .route-container .show-error, .delivery-container .route-container .show-maxLength-error {
+  color: #fb4b4e;
+  font-size: 0.9em;
+  line-height: 0em;
+}
+
+.delivery-container .route-container .error-input, .delivery-container .route-container .freight-container-volume-error, .delivery-container .route-container .date-container-error {
+  border: 2px solid #fb4b4e;
+}
+
+.delivery-container .inner-container, .delivery-container .route-container .freight-container, .delivery-container .route-container .freight-container-goods-tabs .tabs-label, .delivery-container .route-container .date-container {
+  border: 1px solid black;
+}
+
+.delivery-container .route-container .freight-container-goods p, .delivery-container .route-container .freight-container-goods-tabs .tabs-label, .delivery-container .route-container .freight-container-volume p, .delivery-container .route-container .freight-container-volume-label, .delivery-container .route-container .freight-container-volume .dimension-field label, .delivery-container .route-container .weight-container-label, .delivery-container .route-container .date-container-label {
+  font-size: 0.8em;
+}
+
+.delivery-container {
+  margin-left: 275px;
+  height: 85vh;
+  width: 80vh;
+  margin-top: 0.3em;
+}
+
+.delivery-container .inner-container {
+  margin: 1.56em 0.4em 1.2em;
+  height: 8.5em;
+}
+
+.delivery-container .route-container-title {
+  margin-top: 0.2em;
+  margin-left: 0.3em;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.delivery-container .route-container-select-lable {
+  font-size: 0.9em;
+  margin-left: 2.8em;
+}
+
+.delivery-container .route-container-select {
+  height: 1.8em;
+  width: 13em;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.delivery-container .route-container-address {
+  height: 1.8em;
+  width: 50%;
+  margin: 0.8em;
+}
+
+.delivery-container .route-container .show-error {
+  margin-left: 3.8em;
+}
+
+.delivery-container .route-container .show-maxLength-error {
+  margin-left: 20em;
+}
+
+.delivery-container .route-container .freight-container {
+  margin: 0.4em;
+  height: 18em;
+  margin-bottom: 1.2em;
+}
+
+.delivery-container .route-container .freight-container-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left: 0.3em;
+}
+
+.delivery-container .route-container .freight-container-goods {
+  padding-left: 1em;
+  margin-bottom: 2em;
+}
+
+.delivery-container .route-container .freight-container-goods p {
+  margin-bottom: 1.5em;
+}
+
+.delivery-container .route-container .freight-container-goods-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.delivery-container .route-container .freight-container-goods-tabs-btn {
+  position: absolute;
+  opacity: 0;
+}
+
+.delivery-container .route-container .freight-container-goods-tabs .tabs-label {
+  width: auto;
+  padding: 1em 2em;
+  cursor: pointer;
+  color: black;
+  -webkit-transition: background 0.1s, color 0.1s;
+  transition: background 0.1s, color 0.1s;
+}
+
+.delivery-container .route-container .freight-container-goods-tabs .tabs-label:hover {
+  background: #567eff;
+  color: #ffffff;
+}
+
+.delivery-container .route-container .freight-container-goods-tabs .tabs-label:active {
+  background: #000050;
+  color: #ffffff;
+}
+
+.delivery-container .route-container .freight-container-goods-tabs-btn:focus + .tabs-label {
+  z-index: 1;
+}
+
+.delivery-container .route-container .freight-container-goods-tabs-btn:checked + .tabs-label {
+  background: #000050;
+  color: #ffffff;
+}
+
+.delivery-container .route-container .freight-container-volume {
+  padding-left: 1em;
+}
+
+.delivery-container .route-container .freight-container-volume-type {
+  height: 2.2em;
+}
+
+.delivery-container .route-container .freight-container-volume-label {
+  margin: 0.5em;
+}
+
+.delivery-container .route-container .freight-container-volume-number {
+  height: 2.2em;
+  width: 3.6em;
+  margin-right: 3em;
+  text-align: center;
+}
+
+.delivery-container .route-container .freight-container-volume-error {
+  height: 2.2em;
+  width: 3.6em;
+  margin-right: 3em;
+}
+
+.delivery-container .route-container .freight-container-volume-dimension {
+  margin-right: 0.5em;
+  text-align: center;
+  width: 5.5em;
+  height: 2.2em;
+}
+
+.delivery-container .route-container .freight-container-volume .dimension-field {
+  display: inline-block;
+  position: relative;
+  padding-left: 0.5em;
+}
+
+.delivery-container .route-container .freight-container-volume .dimension-field label {
+  position: absolute;
+  top: 3.2em;
+  text-align: center;
+}
+
+.delivery-container .route-container .weight-container {
+  margin-top: 3em;
+}
+
+.delivery-container .route-container .weight-container-label {
+  margin-left: 1em;
+  margin-right: 2em;
+}
+
+.delivery-container .route-container .weight-container-input {
+  margin-right: 0.5em;
+  text-align: center;
+  width: 5.5em;
+  height: 2.2em;
+}
+
+.delivery-container .route-container .date-container {
+  margin: 0.4em;
+  height: 10.5em;
+}
+
+.delivery-container .route-container .date-container-input {
+  margin: 1.7em;
+}
+
+.delivery-container .route-container .date-container-pickup {
+  margin-top: 0;
+  text-indent: 2em;
+  padding: 0 0.3em 0 0.3em;
+}
+
+.delivery-container .route-container .date-container-delivery {
+  margin-top: -1em;
+  text-indent: 2em;
+}
+/*# sourceMappingURL=delivery.css.map */

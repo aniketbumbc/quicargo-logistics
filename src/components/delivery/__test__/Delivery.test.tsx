@@ -52,7 +52,7 @@ describe('Delivery', () => {
     });
   });
 
-  test('should not reflected incorrect form value', () => {
+  test('should not be reflected incorrect form value', () => {
     render(<Delivery />);
 
     userEvent.selectOptions(

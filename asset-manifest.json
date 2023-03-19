@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/quicargo-logistics/static/css/main.53fbcafd.chunk.css",
+    "main.js": "/quicargo-logistics/static/js/main.2ced5ea5.chunk.js",
+    "main.js.map": "/quicargo-logistics/static/js/main.2ced5ea5.chunk.js.map",
+    "runtime-main.js": "/quicargo-logistics/static/js/runtime-main.38c10080.js",
+    "runtime-main.js.map": "/quicargo-logistics/static/js/runtime-main.38c10080.js.map",
+    "static/js/2.b1db08ca.chunk.js": "/quicargo-logistics/static/js/2.b1db08ca.chunk.js",
+    "static/js/2.b1db08ca.chunk.js.map": "/quicargo-logistics/static/js/2.b1db08ca.chunk.js.map",
+    "static/js/3.ffa907ad.chunk.js": "/quicargo-logistics/static/js/3.ffa907ad.chunk.js",
+    "static/js/3.ffa907ad.chunk.js.map": "/quicargo-logistics/static/js/3.ffa907ad.chunk.js.map",
+    "index.html": "/quicargo-logistics/index.html",
+    "static/css/main.53fbcafd.chunk.css.map": "/quicargo-logistics/static/css/main.53fbcafd.chunk.css.map",
+    "static/js/2.b1db08ca.chunk.js.LICENSE.txt": "/quicargo-logistics/static/js/2.b1db08ca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38c10080.js",
+    "static/js/2.b1db08ca.chunk.js",
+    "static/css/main.53fbcafd.chunk.css",
+    "static/js/main.2ced5ea5.chunk.js"
+  ]
+}
